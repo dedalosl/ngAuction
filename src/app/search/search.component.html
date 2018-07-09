@@ -1,0 +1,20 @@
+<form name="searchForm">
+  <div class="form-group">
+    <label for="productTitle">Product title:</label>
+    <input type="text" id="productTitle" class="form-control" placeholder="Title" aria-describedby="helpId">
+    <small id="helpId" class="text-muted">Type a product title</small>
+  </div>
+  <div class="form-group">
+    <label for="productPrice">Product Price</label>
+    <input type="number" min="0" name="productPrice" id="productPrice" class="form-control" placeholder="Price" aria-describedby="helpId">
+    <small id="helpId" class="text-muted">Type a product price</small>
+  </div>
+  <div class="form-group">
+    <label for="productCategory">Product category:</label>
+    <select class="form-control" id="productCategory" aria-describedby="helpId"></select>
+    <small id="helpId" class="text-muted">Select a product category</small>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary btn-block">Search</button>
+  </div>
+</form>
